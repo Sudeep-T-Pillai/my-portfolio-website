@@ -25,7 +25,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       <body className="rounded-2xl bg-[linear-gradient(135deg,#E8F5FA_0%,#FFF8D9_35%,#FFE99A_100%)] min-h-full flex flex-col">
        <Header/>
 
-        <main>
+        <main className="flex-1">
           {children}
         </main>  
         
