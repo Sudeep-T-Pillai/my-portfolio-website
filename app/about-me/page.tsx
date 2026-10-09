@@ -1,13 +1,13 @@
 import BadgeSection from "../components/badges/badge-selection";
+import TechStackDiv from "../components/tech-stack-images/TechStackDiv";
 
 export default function AboutMe() {
     return (
-        <section className="flex flex-col ml-10 font-sans">
-            <h2 className="text-6xl">About Me</h2>
+        <section className="flex flex-col ml-10 font-sans gap-5">
+            <h2 className="text-6xl">A little about me</h2>
             <div className=" grid grid-cols-12 gap-40">
                 <div className=" col-span-6 flex flex-col gap-2">
                     <div className="flex flex-col gap-2">
-                        <h3 className="text-4xl mt-5">A little about me </h3>
                         <p className="text-xl text-justify">
                           I’m an engineer interested in building intelligent systems at the intersection of 
                           software, embedded hardware, and machine learning. My work has taken me across a 
@@ -28,6 +28,7 @@ export default function AboutMe() {
                             Outside of code and hardware, you’ll usually find me behind a camera lens, playing 
                             keys on my keyboard, or curating low-tech desktop aquariums.
                         </p>
+
                     </div>
                     <div>
                         <h3 className="text-2xl mt-5">Education</h3>
@@ -37,13 +38,20 @@ export default function AboutMe() {
                             <li>BTech in Computer Science: TKM College of Engineering (2022-2026)</li>
                         </ul>
                     </div>
+
+                    <div className=" flex flex-col col-2 gap-8">
+                        <h3 className="text-2xl mt-5">Tech Stacks I'm Familiar With</h3>
+                        <TechStackDiv/>
+                    </div>
                 </div>
         
-                <div className="col-span-6">
+                <div className="max-h-[60vh] scrollbar-none overflow-auto col-span-6">
                     <h2 className="text-3xl font-sans">
                        Certifications & Badges
                   </h2>
-                    <BadgeSection/>
+                    <div className="max-h-[60vh] overflow-y-auto scrollbar-none pr-2">
+                        <BadgeSection />
+                    </div>
                 </div>
             </div>
         </section>

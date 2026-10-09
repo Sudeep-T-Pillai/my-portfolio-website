@@ -1,5 +1,4 @@
 import Link from "next/link";
-
 export function Header() {
     return (
         <header className="flex h-[8vh] justify-end position-sticky top-0">

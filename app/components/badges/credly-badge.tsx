@@ -12,11 +12,14 @@ export default function CredlyBadge({
 }: CredlyBadgeProps) {
 
     return (
-        <div
-            data-iframe-width={width}
-            data-iframe-height={height}
+        <iframe
+            src={`https://www.credly.com/embedded_badge/${badgeId}`}
+            width={width}
+            height={height}
+            style={{ overflow: 'hidden' }}
             data-share-badge-id={badgeId}
             data-share-badge-host="https://www.credly.com"
+
         />
     );
 }
