@@ -1,5 +1,5 @@
-import BadgeSection from "../components/badges/badge-selection";
-import TechStackDiv from "../components/tech-stack-images/TechStackDiv";
+import BadgeSection from "../badges/badge-selection";
+import TechStackDiv from "../tech-stack-images/TechStackDiv";
 
 export default function AboutMe() {
     return (

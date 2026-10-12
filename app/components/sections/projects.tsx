@@ -5,7 +5,7 @@ export default function Project() {
                 <p className="text-4xl">Actually. I'm refactoring all my projects, its going to take a while, But its worth it.</p>
             </div>
 
-           <div className="space-y-6 text-2xl">
+           <div className="flex flex-col col-5 items-center space-y-6 text-2xl pl-5 pr-20">
                 <p>So, what am I up to these days?</p>
 
                 <p>
