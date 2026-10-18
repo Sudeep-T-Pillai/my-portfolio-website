@@ -3,9 +3,9 @@ import TechStackDiv from "../tech-stack-images/TechStackDiv";
 
 export default function AboutMe() {
     return (
-        <section className="flex flex-col ml-10 font-sans gap-5">
+        <section className="flex flex-col ml-10 mr-10 font-sans gap-5">
             <h2 className="text-6xl">A little about me</h2>
-            <div className=" grid grid-cols-12 gap-40">
+            <div className="flex flex-col col-2 md:grid grid-cols-12 gap-40">
                 <div className=" col-span-6 flex flex-col gap-2">
                     <div className="flex flex-col gap-2">
                         <p className="text-xl text-justify">

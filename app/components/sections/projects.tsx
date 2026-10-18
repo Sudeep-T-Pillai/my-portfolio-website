@@ -2,7 +2,7 @@ export default function Project() {
     return (
         <section className="flex flex-col ml-10 font-sans gap-10">
             <div className="flex justify-center font-sans gap-10">
-                <p className="text-4xl">Actually. I'm refactoring all my projects, its going to take a while, But its worth it.</p>
+                <p className="text-3xl md:text-4xl">Actually. I'm refactoring all my projects, its going to take a while, But its worth it.</p>
             </div>
 
            <div className="flex flex-col col-5 items-center space-y-6 text-2xl pl-5 pr-20">
