@@ -12,7 +12,7 @@ export default function Introduction() {
            There's a little world of mine I'd love to show you.
           </h2>
 
-          <p className="text-2xl lg:ml-330 mt-35">
+          <p className="text-2xl 2xl:ml-330 mt-35">
             shhh... scroll down to see more..
           </p>
         </section>

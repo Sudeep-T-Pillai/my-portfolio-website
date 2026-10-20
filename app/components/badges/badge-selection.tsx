@@ -5,7 +5,7 @@ export default function BadgeSection() {
     return (
         <section className="flex flex-col gap-6">
 
-            <div className="grid grid-cols-3 gap-2">
+            <div className=" grid grid-cols-2 gap-2 md:grid-cols-3 gap-3">
 
                 <CredlyBadge
                     badgeId="7480810e-5e8c-4f6c-aaa1-8d4b75490922"

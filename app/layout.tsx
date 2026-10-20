@@ -22,15 +22,15 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       lang="en"
       className={`${manrope.variable} h-full antialiased`}
     >
-      <body className="rounded-2xl bg-[linear-gradient(135deg,#E8F5FA_0%,#FFF8D9_35%,#FFE99A_100%)] bg-fixed min-h-full flex flex-col">
-       <Header/>
+        <body className="bg-[linear-gradient(135deg,#E8F5FA_0%,#FFF8D9_35%,#FFE99A_100%)] bg-fixed min-h-screen flex flex-col">
+        <Header/>
 
-        <main className="flex-1">
-          {children}
-        </main>  
-        
-        <Footer/>
-      </body>
+          <main className="flex-1">
+            {children}
+          </main>  
+          
+          <Footer/>
+        </body>
     </html>
   );
 }
